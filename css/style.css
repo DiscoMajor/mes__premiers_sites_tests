@@ -112,7 +112,7 @@ a:hover {
     margin-right: 10px;
 }
 
-.titre_h2 {
+#titre_h2 {
     color: white;
     text-align: center;
     background-color: #e69c91;
@@ -133,6 +133,18 @@ a:hover {
     margin-top: -600px;
 }
 
-.section3 {
+#section3 {
     margin-top: 75px;
+}
+
+p {
+    text-align: center;
+    color: brown;
+}
+
+#drumkit_imgs {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
 }
