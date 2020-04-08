@@ -10,7 +10,7 @@ ul {
 }
 
 a:visited {
-    color: crimson;
+    color: green;
 }
 
 a:hover {
@@ -40,7 +40,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 10px;
-    background: linear-gradient(#5d5e5b, #8c8f88, #8c8f88);
+    background: linear-gradient(#9fa19b, #8c8f88);
     border-top: 0.2em solid black;
     border-bottom: 0.2em solid black;
 }
