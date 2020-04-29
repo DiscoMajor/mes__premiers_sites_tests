@@ -19,12 +19,16 @@
 
     <div id="aligntext_ban">
 
-        <h2>
-            <span id="covbackground">COVID-19</span><span id="generateurbackground"> Générateur d'attestation de déplacement dérogatoire</span>
-        </h2>
+        <div class="covheader">
+            <h2>
+                <span id="covbackground"> COVID-19 </span><span id="generateurbackground" weight:675px> Générateur d'attestation de déplacement dérogatoire</span>
+            </h2>
+        </div>
 
-        <p>Les données saisies sont stockées exclusivement sur votre téléphone ou votre ordinateur. Aucune information n'est collectée par le Ministère de l'Intérieur. L'attestation pdf générée contient un QR Code. Ce code-barres graphique permet de lire
-            les informations portées dans votre attestation au moment de leur saisie. Il peut être déchiffré à l'aide de tout type de lecteur de QR code générique.</p>
+        <div class="p_header">
+            <p>Les données saisies sont stockées exclusivement sur votre téléphone ou votre ordinateur. Aucune information n'est collectée par le Ministère de l'Intérieur. L'attestation pdf générée contient un QR Code. Ce code-barres graphique permet de
+                lire les informations portées dans votre attestation au moment de leur saisie. Il peut être déchiffré à l'aide de tout type de lecteur de QR code générique.</p>
+        </div>
 
     </div>
 
@@ -34,34 +38,40 @@
 
 <body>
 
-    <h3>
-        Remplissez en ligne votre attestation numérique
-    </h3>
+    <div id="body_avant_formulaires">
+        <div id="h3body">
+            <h3>
+                Remplissez en ligne votre attestation numérique :
+            </h3>
+        </div>
 
-    <p>Tous les champs sont obligatoires.</p>
+        <p>Tous les champs sont obligatoires.</p>
+    </div>
+
 
     <!--FORMULAIRES CLASSIQUES -->
 
-    <div class="formulaires">
-        <label><p>Prénom</p></label><input type="text" name="prenom" id="" placeholder="Edouard">
+    <div class="formulaires_classiques">
+        <label id="label_formulaires"><p>Prénom</p></label><input type="text" name="prenom" id="size_for_classique" placeholder="Edouard" required>
 
-        <label><p>Nom</p></label><input type="text" name="nom" id="" placeholder="Du Moulin">
+        <label id="label_formulaires"><p>Nom</p></label><input type="text" name="nom" id="size_for_classique" placeholder="Du Moulin" required>
 
-        <label><p>Date de naissance (au format jj/mm/aaaa)</p></label><input type="date" name="date" id="" placeholder="12/02/1960">
+        <label id="label_formulaires"><p>Date de naissance (au format jj/mm/aaaa)</p></label><input type="text" name="date" id="size_for_classique" placeholder="12/02/1960" required>
 
-        <label><p>Lieu de naissance</p></label><input type="text" name="text" id="" placeholder="Lieu de naissance">
+        <label id="label_formulaires"><p>Lieu de naissance</p></label><input type="text" name="text" id="size_for_classique" placeholder="Lieu de naissance" required>
 
-        <label><p>Adresse</p></label><input type="text" name="text" id="" placeholder="Adresse">
+        <label id="label_formulaires"><p>Adresse</p></label><input type="text" name="text" id="size_for_classique" placeholder="Adresse" required>
 
-        <label><p>Ville</p></label><input type="text" name="text" id="" placeholder="Ville">
+        <label id="label_formulaires"><p>Ville</p></label><input type="text" name="text" id="size_for_classique" placeholder="Ville" required>
 
-        <label><p>Code Postal</p></label><input type="text" pattern="[0-9]{5}" name="departement" id="" placeholder="56700" maxlength="5">
+        <label id="label_formulaires"><p>Code Postal</p></label><input type="text" pattern="[0-9]{5}" name="departement" id="size_for_classique" placeholder="56700" maxlength="5" required>
 
     </div>
 
     <!-- TITRES CHECKBOX -->
 
-    <h3>Choisissez le ou les motif(s) de sortie</h3>
+    </br>
+    <h3 id="h3checkbox">Choisissez le ou les motif(s) de sortie</h3>
 
     <!--FORMULAIRES CHECKBOX -->
 
@@ -100,11 +110,11 @@
 
     <!--FORMULAIRE APRES CHECKBOX -->
 
-    <div class="formulaires">
+    <div class="formulaires_classiques">
 
-        <label><p>Date de sortie</p></label><input type="date" name="prenom" id="" placeholder="12/03/2020">
+        <label id="label_formulaires"><p>Date de sortie</p></label><input type="text" name="datesortie" id="size_for_classique" placeholder="12/03/2020" required>
 
-        <label><p>Heure de sortie</p></label><input type="text" name="nom" id="" placeholder="10:30">
+        <label id="label_formulaires"><p>Heure de sortie</p></label><input type="text" name="heuresortie" id="size_for_classique" placeholder="10:30" required>
 
     </div>
 
