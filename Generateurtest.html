@@ -15,13 +15,13 @@
         <img src="img/banministere.jpg" alt="bangouv">
     </div>
 
-    <!-- TEXTE ALIGN SUR BANNIERE  -->
+    <!-- TEXTE ALIGN SUR BANNIERE + Debordement rouge à faire  -->
 
     <div id="aligntext_ban">
 
         <div class="covheader">
             <h2>
-                <span id="covbackground"> COVID-19 </span><span id="generateurbackground" weight:675px> Générateur d'attestation de déplacement dérogatoire</span>
+                <span id="covbackground"> COVID-19 </span><span id="generateurbackground"> Générateur d'attestation de déplacement dérogatoire</span>
             </h2>
         </div>
 
@@ -78,32 +78,32 @@
     <div class="checkbox">
 
         <div>
-            <input type="checkbox" name="" id=""> <label for="">Déplacements entre le domicile et le lieu d’exercice de l’activité professionnelle, lorsqu'ils sont indispensables à l'exercice d’activités ne pouvant être organisées sous forme de télétravail ou déplacements professionnels ne pouvant être différés.</label>
+            <input type="checkbox" name=""><label id="checkbox_bold">Déplacements entre le domicile et le lieu d’exercice de l’activité professionnelle, lorsqu'ils sont indispensables à l'exercice d’activités ne pouvant être organisées sous forme de télétravail ou déplacements professionnels ne pouvant être différés.</label>
         </div>
         </br>
         <div>
-            <input type="checkbox" name="" id=""> <label for="">Déplacements pour effectuer des achats de fournitures nécessaires à l’activité professionnelle et des achats de première nécessité dans des établissements dont les activités demeurent autorisées <a href="https://www.service-public.fr/particuliers/actualites/A13921">(liste des commerces et établissements qui restent ouverts)</a>.</label>
+            <input type="checkbox" name=""><label id="checkbox_bold">Déplacements pour effectuer des achats de fournitures nécessaires à l’activité professionnelle et des achats de première nécessité dans des établissements dont les activités demeurent autorisées <a href="https://www.service-public.fr/particuliers/actualites/A13921">(liste des commerces et établissements qui restent ouverts)</a>.</label>
         </div>
         </br>
         <div>
-            <input type="checkbox" name="" id=""> <label for="">Consultations et soins ne pouvant être assurés à distance et ne pouvant être différés ; consultations et soins des patients atteints d'une affection de longue durée.</label>
+            <input type="checkbox" name=""><label id="checkbox_bold">Consultations et soins ne pouvant être assurés à distance et ne pouvant être différés ; consultations et soins des patients atteints d'une affection de longue durée.</label>
         </div>
         </br>
         <div>
-            <input type="checkbox" name="" id=""> <label for="">Déplacements pour motif familial impérieux, pour l’assistance aux personnes vulnérables ou la garde d’enfants.</label>
+            <input type="checkbox" name=""><label id="checkbox_bold">Déplacements pour motif familial impérieux, pour l’assistance aux personnes vulnérables ou la garde d’enfants.</label>
         </div>
         </br>
         <div>
 
-            <input type="checkbox" name="" id=""> <label for="">Déplacements brefs, dans la limite d'une heure quotidienne et dans un rayon maximal d'un kilomètre autour du domicile, liés soit à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective et de toute proximité avec d'autres personnes, soit à la promenade avec les seules personnes regroupées dans un même domicile, soit aux besoins des animaux de compagnie.</label>
+            <input type="checkbox" name=""><label id="checkbox_bold">Déplacements brefs, dans la limite d'une heure quotidienne et dans un rayon maximal d'un kilomètre autour du domicile, liés soit à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective et de toute proximité avec d'autres personnes, soit à la promenade avec les seules personnes regroupées dans un même domicile, soit aux besoins des animaux de compagnie.</label>
         </div>
         </br>
         <div>
-            <input type="checkbox" name="" id=""> <label for="">Convocation judiciaire ou administrative.</label>
+            <input type="checkbox" name=""><label id="checkbox_bold">Convocation judiciaire ou administrative.</label>
         </div>
         </br>
         <div>
-            <input type="checkbox" name="" id=""> <label for="">Participation à des missions d’intérêt général sur demande de l’autorité administrative.</label>
+            <input type="checkbox" name=""><label id="checkbox_bold">Participation à des missions d’intérêt général sur demande de l’autorité administrative.</label>
         </div>
 
     </div>
@@ -123,9 +123,18 @@
     <!--BOUTON CREATEUR PDF QUE JE SAIS PAS FAIRE -->
     <!--BOUTON CREATEUR PDF QUE JE SAIS PAS FAIRE -->
 
-    <p id="github">Le code source de ce service est consultable sur <a href="https://github.com/LAB-MI/deplacement-covid-19">Github</a>.</p>
 
-    <p id="credits">Ministère de l'Intérieur - DNUM - SDIT</p>
+
+    <!--BAS DE PAGE CREDITS -->
+
+    <div id="credits_gitlink">
+        <p id="github">Le code source de ce service est consultable sur <a href="https://github.com/LAB-MI/deplacement-covid-19">Github</a>.</p>
+
+        <p id="credits">Ministère de l'Intérieur - DNUM - SDIT</p>
+    </div>
+
+
+    <!--Image DNUM -->
 
     <div id="dnum">
         <img src="img/dnum.png" alt="DNUM">
@@ -133,21 +142,24 @@
 
     <!--FOOTER / FOOTER / FOOTER -->
 
-    <!--Virer les points des listes + background à faire + couleurs liens -->
-
     <footer>
 
         <div id="listfooter">
             <ul>
                 <li>
-                    <a href="https://media.interieur.gouv.fr/deplacement-covid-19/confidentialite.html">Confidentialité</a></li>
+                    <a href="https://media.interieur.gouv.fr/deplacement-covid-19/confidentialite.html" id="a_listfooter">Confidentialité</a>
+                </li>
+                <br>
                 <li>
-                    <a href="https://www.interieur.gouv.fr/Infos-du-site/Mentions-legales">Mentions légales</a></li>
+                    <a href="https://www.interieur.gouv.fr/Infos-du-site/Mentions-legales" id="a_listfooter">Mentions légales</a>
+                </li>
+                <br>
                 <li>
-                    <a href="Informations du gouvernement sur le Covid-19">Informations du gouvernement sur le Covid-19</a></li>
-
-                <li>Plus d’infos au <a href=0 800 130 000>0 800 130 000</a></li>
-
+                    <a href="Informations du gouvernement sur le Covid-19" id="a_listfooter">Informations du gouvernement sur le Covid-19</a>
+                </li>
+                <br>
+                <li>Plus d’infos au <a href=0 800 130 000 style="color: #00a94f;">0 800 130 000</a></li>
+                <br>
                 <li>2020 - v1.1.3</li>
             </ul>
         </div>

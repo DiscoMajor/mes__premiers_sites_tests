@@ -43,6 +43,7 @@ h2 {
     width: 285px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    margin-bottom: -25px;
 }
 
 #body_avant_formulaires {
@@ -50,6 +51,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin-left: -95px;
+    margin-bottom: -20px;
 }
 
 
@@ -60,6 +62,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin-left: 17px;
+    margin-top: 10px;
 }
 
 #label_formulaires {
@@ -85,13 +88,85 @@ h2 {
 /*  FORMULAIRES CHECKBOX */
 
 .checkbox {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     width: 400px;
-    margin-left: 736px;
+    margin-left: 750px;
+    font-weight: 900;
 }
 
-#center_checkbox {}
+#checkbox_bold {
+    font-weight: 700;
+}
+
+
+/*  CREDITS + GITHUB LINK */
+
+#credits_gitlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#github {
+    font-size: 0.8em;
+    font-weight: 850;
+}
+
+#credits {
+    font-weight: 875;
+}
+
+
+/*  IMAGE DNUM */
+
+#dnum {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+
+/*  FOOTER */
+
+footer {
+    background-color: #222222;
+}
+
+#listfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+#a_listfooter {
+    color: white;
+}
+
+#a_listfooter:hover {
+    color: #1381bf;
+}
+
+
+/*  AUTRES SANS ID OU CLASS OU DIV */
+
+a:hover {
+    color: #1381bf;
+}
+
+a {
+    color: #000191;
+}
 
 p {
     font-family: 'Quicksand', sans-serif;
