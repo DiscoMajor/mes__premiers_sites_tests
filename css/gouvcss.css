@@ -14,6 +14,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 8px;
 }
 
 #covbackground {
@@ -41,9 +42,9 @@ h2 {
 }
 
 .p_header {
-    width: 775px;
+    width: 790px;
     margin-top: -25px;
-    margin-right: 15px;
+    margin-right: 5px;
 }
 
 
